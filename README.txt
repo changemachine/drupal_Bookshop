@@ -7,6 +7,7 @@ CONTENTS OF THIS FILE
  * Installation profiles
  * Appearance
  * Developing for Drupal
+ * Code Review Info
 
 ABOUT DRUPAL
 ------------
@@ -121,3 +122,64 @@ More about developing:
    http://drupal.org/best-practices
  * Refer to the API documentation:
    http://api.drupal.org/api/drupal/7
+
+
+
+
+———————————————————————————————————————————————————————
+CODE REVIEW INFORMATION -------------------------------
+———————————————————————————————————————————————————————
+Project by James Nielson
+————————————————————————————————
+
+This Bookshop demo site is a Drupal 7 development exercise.  Main focal points were on Features and Views modules.
+
+
+SETUP & LOGIN
+————————————————————————————————
+Download, MAMP or similar server in project root folder, import DB (located in sites/DB-Backups)
+Database name:		bookshop
+
+Admin/Maint User: 	madmin
+Admin/Maint PW: 	password
+
+Authenticated User: 	Reviewer
+Authenticated PW: 	Password
+
+
+————————————————————————————————
+DRUPAL version 7.37
+——————————————————
+
+MODULES ———————
+————————————————————————————————
+Admin Menu
+Advanced Help
+Andromeda Slideshow
+Contact
+Context
+CSS Injector
+CTools
+Date
+Features
+jQuery Update
+Libraries
+Nice Menus
+Panels
+Star Rating
+StrongArm
+Views
+
+THEME ————————— Andromeda
+————————————————————————————————
+
+LIBRARIES —————————
+————————————————————————————————
+jQuery Easing (GD Smith)
+Nivo Slider
+
+
+————————————————————————————————————————————————————————————————
+MIT License ’n all that.
+————————————————————————————————————————————————————————————————
+
