@@ -21,7 +21,7 @@ function site_config_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
-  $strongarm->value = 'Cameron\'s Mounds of Books';
+  $strongarm->value = 'Cameron\'s Books';
   $export['site_name'] = $strongarm;
 
   $strongarm = new stdClass();
